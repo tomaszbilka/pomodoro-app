@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
+  background-color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 30px;
+}
+
+.text {
+  text-align: left;
+}
+
+.text h5 {
+  margin: 10px;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.text p {
+  font-size: 2.5vw;
+  font-weight: 300;
+  padding: 13px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.text a {
+  text-decoration: none;
+}

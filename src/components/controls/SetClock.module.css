@@ -1,0 +1,40 @@
+.set_time_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid rgb(48, 48, 48);
+  border-radius: 10px;
+  background-color: black;
+  position: relative;
+  z-index: 10;
+  width: 38vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h3 {
+  letter-spacing: 2px;
+  font-size: 3vw;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.set_time_form label {
+  font-size: 3vw;
+}
+
+.set_time_form input {
+  height: 3.5vw;
+  width: 8vw;
+  font-size: 3.5vw;
+  padding: 5px;
+  margin: 5px 20px;
+}
