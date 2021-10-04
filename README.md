@@ -1,5 +1,8 @@
 This is my first React Application made by myself. Whole application is made by function components and all states are controled bu hook: useState(). Application help you to work and focus on your tasks for some period of time, have a break and focus again. More information inside application itself. Enjoy!
 
+Heroku link:
+https://pomodoro-app-react.herokuapp.com/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
